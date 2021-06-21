@@ -1,0 +1,54 @@
+treatments:
+  - name: disclosure
+    factorIds:
+      - KFmiQkWn3Jx7P2gbE
+    archivedAt: 2021-06-21T05:49:10.880Z
+  - name: disc
+    factorIds:
+      - JTfdbcqAfQmjKNPq3
+  - name: disc9
+    factorIds:
+      - KFmiQkWn3Jx7P2gbE
+factorTypes:
+  - _id: GuB4cDiSGsGrQ3ypN
+    name: playerCount
+    description: The Number of players participating in the given game.
+    required: true
+    type: Integer
+    min: 1
+  - _id: gdFAKhf6hfHQ6Zu3W
+    name: size1
+    description: test for size 1
+    required: false
+    type: Number
+    min: 1
+    max: 1
+    archivedAt: 2021-06-21T05:48:20.718Z
+  - _id: 2kW75nzLidzZ5Q4x3
+    name: stageLength
+    description: length of each stage
+    required: true
+    type: String
+factors:
+  - _id: KFmiQkWn3Jx7P2gbE
+    name: '9'
+    value: 9
+    factorTypeId: GuB4cDiSGsGrQ3ypN
+  - _id: JTfdbcqAfQmjKNPq3
+    name: '1'
+    value: 1
+    factorTypeId: GuB4cDiSGsGrQ3ypN
+  - _id: rdkxf47ycRMRKK63h
+    name: '60'
+    value: '60'
+    factorTypeId: 2kW75nzLidzZ5Q4x3
+  - _id: jAzATCB5z7XCDahx9
+    name: '600'
+    value: '600'
+    factorTypeId: 2kW75nzLidzZ5Q4x3
+lobbyConfigs:
+  - name: test_lobby
+    timeoutType: lobby
+    timeoutInSeconds: 300
+    timeoutStrategy: ignore
+    gameLobbyIds: []
